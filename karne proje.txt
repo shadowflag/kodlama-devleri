@@ -1,0 +1,30 @@
+
+{
+    public static void Main(string[] args)
+    
+    {    
+        Console.Write("karne nutunuzu giriniz:");
+        int sayi = Convert.ToInt32(Console.ReadLine());
+        {
+        if (sayi > 85 <= 100)
+        {
+            Console.WriteLine("Takdir Belgesi");
+        }
+        
+        else if (sayi > 70 <=85)
+        {
+            Console.WriteLine("Tesekkur Belgesi");
+        }
+        
+        else if (sayi < 50 <=75)
+        {
+        Console.WriteLine("Kaldınız");
+        }
+        else
+        Console.WriteLine("geçerli not giriniz");
+        
+        
+        
+        }
+    }    
+}
