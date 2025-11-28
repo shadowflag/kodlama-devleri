@@ -1,0 +1,33 @@
+    {    
+        Console.Write("bir sayi giriniz:");
+        int sayi = Convert.ToInt32(Console.ReadLine());
+        {
+        if (sayi > 0)
+        {
+            Console.WriteLine("bu sayi pozitif");
+        }
+        
+        else if (sayi < 0)
+        {
+            Console.WriteLine("bu sayi negatif");
+        }
+        
+        else
+        Console.WriteLine("bu sayi nortdur");
+        }
+        
+        {
+        if ( sayi % 2 == 0)
+        {
+            Console.WriteLine("sayiniz cifttir");
+        }
+        
+        else if ( sayi % 2 == 1)
+        {
+            Console.WriteLine("sayiniz tektir");
+        }
+        
+        else
+        Console.WriteLine("sayiniz notrdur");
+        }
+    }    
